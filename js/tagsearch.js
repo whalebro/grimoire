@@ -44,7 +44,8 @@ function doesTagListMatchTagSearch(tagSearch, tagList){
 function runTagSearch(){
 	var lis = document.getElementsByTagName("li");
   	var query = getTagSearchFromURL(window.location.search);
-  	for (li in lis){
+  	for (var i = 0; i < lis.length; i++){
+  		var li = lis[i];
   		if (li.dataset && li.dataset.tags){
   			var tagList = li.dataset.tags;
 	  		if (!doesTagListMatchTagSearch(query, tagList)){
