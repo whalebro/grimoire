@@ -31,9 +31,9 @@ function doesTagListMatchTagSearch(tagSearch, tagList){
 	var tagListArr = tagList.split(',');
 	var tagSearchArr = tagSearch.split('&');
 	outer:
-	for (tag in tagSearchArr){
-		for (tagCheck in tagListArr){
-			if (tagCheck.toLowerCase().includes(tag.toLowerCase())){
+	for (var i = 0; i < tagSearchArr.length; i++){
+		for (var j = 0; j < tagListArr.length; j++){
+			if (tagListArr[j].toLowerCase().includes(tagSearchArr[i].toLowerCase())){
 				continue outer;
 			}
 		}
