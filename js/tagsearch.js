@@ -45,7 +45,7 @@ function doesTagListMatchTagSearchAnd(tagSearch, tagList){
 function doesTagListMatchTagSearch(tagSearch, tagList){
 	var tagSearchArr = tagSearch.split('|');
 	for (var i = 0; i < tagSearchArr.length; i++){
-		if (doesTagListMatchTagSearchAnd(tagSearchArr[i], tagList){
+		if (doesTagListMatchTagSearchAnd(tagSearchArr[i], tagList)){
 			return true;
 		}
 	}
@@ -68,5 +68,9 @@ function runTagSearch(){
   		}
   	}
 }
+
+document.addEventListener("DOMContentLoaded", function(event) {
+	runTagSearch();
+});
 
 
