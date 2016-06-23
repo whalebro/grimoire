@@ -28,8 +28,8 @@ function getTagSearchFromURL(url){
 }
 
 function doesTagListMatchTagSearch(tagSearch, tagList){
-	var tagListArr = tagList.split(',');
-	var tagSearchArr = tagSearch.split('&');
+	var tagListArr = tagList.trim().split(',');
+	var tagSearchArr = tagSearch.trim().split('&');
 	outer:
 	for (var i = 0; i < tagSearchArr.length; i++){
 		for (var j = 0; j < tagListArr.length; j++){
