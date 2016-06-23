@@ -33,7 +33,7 @@ function doesTagListMatchTagSearch(tagSearch, tagList){
 	outer:
 	for (var i = 0; i < tagSearchArr.length; i++){
 		for (var j = 0; j < tagListArr.length; j++){
-			if (tagListArr[j].toLowerCase().includes(tagSearchArr[i].toLowerCase())){
+			if (tagListArr[j].toLowerCase() === tagSearchArr[i].toLowerCase()){
 				continue outer;
 			}
 		}
