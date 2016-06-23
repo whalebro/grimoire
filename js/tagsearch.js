@@ -45,11 +45,13 @@ function runTagSearch(){
 	var lis = document.getElementsByTagName("li");
   	var query = getTagSearchFromURL(window.location.search);
   	for (li in lis){
-  		var tagList = li.dataset.tags;
-  		if (!doesTagListMatchTagSearch(query, tagList)){
-  			li.classList.add("hide");
-  		} else {
-  			li.classList.remove("hide");
+  		if (li.dataset && li.dataset.tags){
+  			var tagList = li.dataset.tags;
+	  		if (!doesTagListMatchTagSearch(query, tagList)){
+	  			li.classList.add("hide");
+	  		} else {
+	  			li.classList.remove("hide");
+	  		}
   		}
   	}
 }
