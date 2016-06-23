@@ -28,12 +28,12 @@ function getTagSearchFromURL(url){
 }
 
 function doesTagListMatchTagSearch(tagSearch, tagList){
-	var tagListArr = tagList.trim().split(',');
-	var tagSearchArr = tagSearch.trim().split('&');
+	var tagListArr = tagList.split(',');
+	var tagSearchArr = tagSearch.split('&');
 	outer:
 	for (var i = 0; i < tagSearchArr.length; i++){
 		for (var j = 0; j < tagListArr.length; j++){
-			if (tagListArr[j].toLowerCase() === tagSearchArr[i].toLowerCase()){
+			if (tagListArr[j].trim().toLowerCase() === tagSearchArr[i].trim().toLowerCase()){
 				continue outer;
 			}
 		}
@@ -41,6 +41,8 @@ function doesTagListMatchTagSearch(tagSearch, tagList){
 	}
 	return true;
 }
+
+
 function runTagSearch(){
 	var lis = document.getElementsByTagName("li");
   	var query = getTagSearchFromURL(window.location.search);
