@@ -3,6 +3,9 @@ layout: default
 ---
 
 <div class="home">
+  <script>
+  	document.write(getTagSearchFromURL(window.location));
+  </script>
   <h1 class="page-heading">All Spells</h1>
   <p id="spellSearch">Search by name: <input type="search" id="jetsSearch" class="jetsSearch"></p>
   <p id="tagSearch"><form action="tagsearch.html">Search by tag: <input type="search" name="tagSearch" class="jetsSearch"></form></p>
