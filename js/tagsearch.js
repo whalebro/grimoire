@@ -70,6 +70,7 @@ function runTagSearch(){
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
+	document.getElementById("tagSearchBar").value = getTagSearchFromURL(window.location.search);
 	runTagSearch();
 });
 
