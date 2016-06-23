@@ -5,6 +5,7 @@ layout: default
 <div class="home">
   <h1 class="page-heading">All Spells</h1>
   <p id="spellSearch">Search by name: <input type="search" id="jetsSearch"></p>
+  <p id="tagSearch"><form action="tagsearch.html">Search by tag: <input type="search" name="tagSearch"><input type="submit" value="Search"></form></p>
    <dl class="tag-list">
     <dt>Spell tier:</dt>
     {% for level in site.data.levels %}
@@ -19,7 +20,7 @@ layout: default
     <ul class="post-list jetsContent">
       {% assign post_list = site.tags.[{{level.tag}}] | sort: 'title' %}
       {% for post in post_list %}
-        <li data-tags="{{ post.tags | join: ', ' }}">
+        <li data-tags="{{ post.tags | join: ',' }}">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>
       {% endfor %}
@@ -30,3 +31,4 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+
