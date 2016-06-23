@@ -27,3 +27,30 @@ function getTagSearchFromURL(url){
 	return parseURLParams(url).tagSearch[0];
 }
 
+function doesTagListMatchTagSearch(tagSearch, tagList){
+	var tagListArr = tagList.split(',');
+	var tagSearchArr = tagSearch.split('&');
+	outer:
+	for (tag in tagSearchArr){
+		for (tagCheck in tagListArr){
+			if (tagCheck.toLowerCase().includes(tag.toLowerCase())){
+				continue outer;
+			}
+		}
+		return false;
+	}
+	return true;
+}
+function runTagSearch(){
+	var lis = document.getElementsByTagName("li");
+  	var query = getTagSearchFromURL(window.location.search);
+  	for (li in lis){
+  		var tagList = li.dataset.tags;
+  		if (!doesTagListMatchTagSearch(query, tagList)){
+  			li.classList.add("hide");
+  		} else {
+  			li.classList.remove("hide");
+  		}
+  	}
+}
+
