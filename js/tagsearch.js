@@ -27,7 +27,7 @@ function getTagSearchFromURL(url){
 	return parseURLParams(url).tagSearch[0];
 }
 
-function doesTagListMatchTagSearch(tagSearch, tagList){
+function doesTagListMatchTagSearchAnd(tagSearch, tagList){
 	var tagListArr = tagList.split(',');
 	var tagSearchArr = tagSearch.split('&');
 	outer:
@@ -40,6 +40,16 @@ function doesTagListMatchTagSearch(tagSearch, tagList){
 		return false;
 	}
 	return true;
+}
+
+function doesTagListMatchTagSearch(tagSearch, tagList){
+	var tagSearchArr = tagSearch.split('|');
+	for (var i = 0; i < tagSearchArr.length; i++){
+		if (doesTagListMatchTagSearchAnd(tagSearchArr[i], tagList){
+			return true;
+		}
+	}
+	return false;
 }
 
 
