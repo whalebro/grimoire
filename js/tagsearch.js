@@ -27,17 +27,27 @@ function getTagSearchFromURL(url){
 	return parseURLParams(url).tagSearch[0];
 }
 
-function doesTagListMatchTagSearchAnd(tagSearch, tagList){
+function doesTagListMatchTag(tag, tagList){
+	tag = tag.trim();
 	var tagListArr = tagList.split(',');
-	var tagSearchArr = tagSearch.split('&');
-	outer:
-	for (var i = 0; i < tagSearchArr.length; i++){
-		for (var j = 0; j < tagListArr.length; j++){
-			if (tagListArr[j].trim().toLowerCase() === tagSearchArr[i].trim().toLowerCase()){
-				continue outer;
-			}
+	var invert = tag.startsWith('!');
+	if (invert){
+		tag = tag.substring(1);
+	}
+	for (var j = 0; j < tagListArr.length; j++){
+		if (tagListArr[j].trim().toLowerCase() === tag.toLowerCase()){
+			return !invert;
 		}
-		return false;
+	}
+	return invert;
+}
+
+function doesTagListMatchTagSearchAnd(tagSearch, tagList){
+	var tagSearchArr = tagSearch.split('&');
+	for (var i = 0; i < tagSearchArr.length; i++){
+		if (!doesTagListMatchTag(tagSearchArr[i], tagList)){
+			return false;
+		}
 	}
 	return true;
 }
