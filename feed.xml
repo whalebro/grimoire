@@ -3,11 +3,11 @@
   <channel>
     <title>Grimoire</title>
     <description>A searchable D&amp;D 5e spell list, sorted by class and level.</description>
-    <link>http://thebombzen.github.io/grimoire/</link>
-    <atom:link href="http://thebombzen.github.io/grimoire/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 Jun 2016 21:27:35 -0400</pubDate>
-    <lastBuildDate>Tue, 28 Jun 2016 21:27:35 -0400</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>https://whalebro.github.io/grimoire/</link>
+    <atom:link href="https://whalebro.github.io/grimoire/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 14 Sep 2016 01:16:52 +0000</pubDate>
+    <lastBuildDate>Wed, 14 Sep 2016 01:16:52 +0000</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Sword Burst</title>
@@ -25,9 +25,9 @@
 
 &lt;p&gt;This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).&lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Dec 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/sword-burst</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/sword-burst</guid>
+        <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/sword-burst</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/sword-burst</guid>
         
         <category>sorcerer</category>
         
@@ -60,9 +60,9 @@
 
 &lt;p&gt;This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).&lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Dec 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/lightning-lure</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/lightning-lure</guid>
+        <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/lightning-lure</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/lightning-lure</guid>
         
         <category>sorcerer</category>
         
@@ -95,9 +95,9 @@
 
 &lt;p&gt;This spell’s damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Dec 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/green-flame-blade</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/green-flame-blade</guid>
+        <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/green-flame-blade</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/green-flame-blade</guid>
         
         <category>sorcerer</category>
         
@@ -130,9 +130,9 @@
 
 &lt;p&gt;This spell’s damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Dec 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/booming-blade</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/booming-blade</guid>
+        <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/booming-blade</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/booming-blade</guid>
         
         <category>sorcerer</category>
         
@@ -163,9 +163,9 @@
 
 &lt;p&gt;You conjure up a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is blinded while in the wall’s space and must spend 3 feet of movement for every 1 foot it moves there.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 22 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/wall-of-sand</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/wall-of-sand</guid>
+        <pubDate>Sun, 22 Nov 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/wall-of-sand</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/wall-of-sand</guid>
         
         <category>wizard</category>
         
@@ -194,9 +194,9 @@
 
 &lt;p&gt;&lt;strong&gt;At Higher Levels.&lt;/strong&gt; When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 20 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/vitriolic-sphere</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/vitriolic-sphere</guid>
+        <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/vitriolic-sphere</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/vitriolic-sphere</guid>
         
         <category>sorcerer</category>
         
@@ -231,9 +231,9 @@
 
 &lt;p&gt;&lt;strong&gt;At Higher Levels.&lt;/strong&gt; When you cast this spell using a spell slot of 5th level or higher, the damage increases for each of its effects by 1d6 for each slot level above 4th.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 20 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/storm-sphere</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/storm-sphere</guid>
+        <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/storm-sphere</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/storm-sphere</guid>
         
         <category>sorcerer</category>
         
@@ -249,7 +249,7 @@
       </item>
     
       <item>
-        <title>Melf&#39;s Minute Meteors</title>
+        <title>Melf's Minute Meteors</title>
         <description>&lt;p&gt;&lt;strong&gt;3rd-level evocation&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
@@ -264,9 +264,9 @@
 
 &lt;p&gt;&lt;strong&gt;At Higher Levels.&lt;/strong&gt; When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 20 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/melfs-minute-meteors</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/melfs-minute-meteors</guid>
+        <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/melfs-minute-meteors</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/melfs-minute-meteors</guid>
         
         <category>sorcerer</category>
         
@@ -297,9 +297,9 @@
 
 &lt;p&gt;If damage from this spell reduces a target to 0 hit points, the target is turned to ash.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 20 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/immolation</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/immolation</guid>
+        <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/immolation</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/immolation</guid>
         
         <category>sorcerer</category>
         
@@ -315,7 +315,7 @@
       </item>
     
       <item>
-        <title>Abi Dalzim&#39;s Horrid Wilting</title>
+        <title>Abi Dalzim's Horrid Wilting</title>
         <description>&lt;p&gt;&lt;strong&gt;8th-level necromancy&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
@@ -328,9 +328,9 @@
 
 &lt;p&gt;You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren’t affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 10d8 necrotic damage on a failed save, or half as much damage on a successful one.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 20 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://thebombzen.github.io/grimoire/spells/abi-dalzims-horrid-wilting</link>
-        <guid isPermaLink="true">http://thebombzen.github.io/grimoire/spells/abi-dalzims-horrid-wilting</guid>
+        <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+        <link>https://whalebro.github.io/grimoire/spells/abi-dalzims-horrid-wilting</link>
+        <guid isPermaLink="true">https://whalebro.github.io/grimoire/spells/abi-dalzims-horrid-wilting</guid>
         
         <category>sorcerer</category>
         
