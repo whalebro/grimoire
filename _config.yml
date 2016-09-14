@@ -1,11 +1,11 @@
 # Site settings
 title: "Grimoire"
-author: "Saph, thebombzen"
+author: "whalebro(fork creator)"
 description:
   "A searchable D&D 5e spell list, sorted by class and level."
 baseurl: "/grimoire" # the subpath of your site, e.g. /blog/
-url: "http://thebombzen.github.io" # the base hostname & protocol for your site
-source-url: "https://github.com/thebombzen/grimoire/"
+url: "https://whalebro.github.io" # the base hostname & protocol for your site
+source-url: "https://github.com/whalebro/grimoire/"
 permalink: "/:categories/:title"
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
